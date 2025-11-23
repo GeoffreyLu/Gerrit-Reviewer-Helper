@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Gerrit Reviewer Helper</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: 40px auto; padding: 20px; line-height: 1.6; }
+        h1, h2 { color: #333; }
+        ul { padding-left: 20px; }
+    </style>
+</head>
+<body>
+    <h1>Privacy Policy for Gerrit Reviewer Helper</h1>
+    
+    <h2>Data Collection</h2>
+    <p>This extension does NOT collect, store, or transmit any personal data or user information.</p>
+    
+    <h2>Data Usage</h2>
+    <p>The extension operates entirely locally within your browser:</p>
+    <ul>
+        <li>Reviewer email addresses are stored locally in Chrome's sync storage</li>
+        <li>All processing happens locally on your machine</li>
+        <li>No data is sent to external servers</li>
+        <li>No analytics or tracking mechanisms are used</li>
+    </ul>
+    
+    <h2>Permissions Explanation</h2>
+    <p>The extension requires the following permissions:</p>
+    <ul>
+        <li><strong>activeTab</strong>: To interact with Gerrit review pages when activated</li>
+        <li><strong>alarms</strong>: To keep the extension service worker active for reliable performance (does not collect any data)</li>
+        <li><strong>downloads</strong>: To allow export of debug logs to your local machine</li>
+        <li><strong>storage</strong>: To save your configured reviewer list locally in browser storage</li>
+        <li><strong>host permissions</strong>: To run only on specified Gerrit code review sites</li>
+    </ul>
+    
+    <h3>Alarms Permission Details</h3>
+    <p>The <strong>alarms</strong> permission is used solely for:</p>
+    <ul>
+        <li>Maintaining extension service worker activity</li>
+        <li>Ensuring reliable performance when the extension is used after periods of inactivity</li>
+        <li>Preventing automatic termination by the browser</li>
+    </ul>
+    <p><em>Note: The alarms functionality does not collect user data, track usage, or communicate with external servers. It only creates internal timers to keep the extension ready for use.</em></p>
+    
+    <h2>Data Storage</h2>
+    <p>All data is stored locally in your browser:</p>
+    <ul>
+        <li>Reviewer email lists → Chrome sync storage</li>
+        <li>Debug logs → Chrome local storage (optional export only)</li>
+        <li>No data is transmitted to external servers</li>
+    </ul>
+    
+    <h2>Contact</h2>
+    <p>If you have any questions about this privacy policy, please contact: </p>
+    <p>
+        <span class="email-label">Personal: </span>
+        <a href="mailto:lu.geoffrey@gmail.com">lu.geoffrey@gmail.com</a><br>
+        <span class="email-label">Work: </span>
+        <a href="mailto:lubm1@motorola.com">lubm1@motorola.com</a>
+    </p>
+    
+    <p><em>Last updated: Nov. 23 2025</em></p>
+</body>
+</html>
